@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+table {
+	margin-top:20px;
+    width: 60%;
+	font-size: 14px;
+    border-collapse: collapse;	
+    background-color: #E2E7E7;
+}
+
+td, th {
+    padding: 10px;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    margin: 8px 0;	
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    height: 35px;
+    background-color: #666868;
+    color: #ffffff;
+}
+input[type="text"]::placeholder {
+    color: #cccccc;
+}
+
+label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 0.4em;
+}
+
+span {
+    color: red;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 0.5em;
+}
+
+td {
+    padding: 10px 5px;
+	padding-left:30px;
+}
+#acknowledgelabel {
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 0.4em;
+    vertical-align: middle;
+}
+#acknowledge {
+    vertical-align: middle;
+}
+#submitBtn {
+    background-color: #6C78DB;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    background-color: #3943A7;
+}
+#buttontd
+{
+	text-align: center;
+}
+#name,#email,#companyname,#businessnumber
+{	
+	border: 1px solid red;
+}
+#chkandlabel
+{
+	display: flex;
+    align-items: center;
+}
+#nrc
+{
+	width: 90%; 
+}
+#belowline1,#belowline2,#belowline3,#belowline4
+{	   
+	border-left:  3px solid #6C78DB;
+	padding-left:20px;
+}
+#main
+{
+	margin-left:30%;
+}
